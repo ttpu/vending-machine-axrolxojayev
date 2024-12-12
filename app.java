@@ -15,6 +15,7 @@ public class app {
         System.out.println(vm.availableCans("Coke"));
 
         System.out.println(vm.getPrice("Coke"));
+        System.out.println(vm.getPrice("Water"));
 
         vm.rechargeCard(12, 5.5);
         vm.rechargeCard(21, 10.0);
